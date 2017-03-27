@@ -26,4 +26,3 @@ function returnParameter(nb) {
 //  écrire votre code sous ce commentaire
 
 returnParamater(5);
-console.log(returnParamater(5));
