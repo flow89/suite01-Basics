@@ -30,4 +30,24 @@
 // isAllEven([4, 4, 6, 8, 10, 12]);
 
 //  écrire votre code sous ce commentaire
+function isAllEven(tab) {
+    for (i = 0; i < tab.length; i++) {
+        if (isEven(tab[i]) === "0") {
+            return "0";
+        }
+    }
+    return "1";
+
+}
+function isEven(nb) {
+    if (nb % 2 === 0) {
+        return "1";
+    }
+    else {
+        return "0";
+    }
+}
+
+
+
 
