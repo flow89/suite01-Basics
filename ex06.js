@@ -51,3 +51,18 @@
 // getHumanTypeByAge(140);
 
 //  écrire votre code sous ce commentaire
+function getHumanTypeByAge(nb) {
+    if(nb < 12) {
+        return"enfant";
+    }
+    if(nb >= 12 && nb < 18) {
+          return"ado";
+    }
+    if(nb >= 18 &&  nb < 124) {
+        return"adulte";
+    }
+    if(nb >= 124) {
+        return"impossible...ou encore jamais vu";
+    }
+}
+    getHumanTypeByAge(33);
